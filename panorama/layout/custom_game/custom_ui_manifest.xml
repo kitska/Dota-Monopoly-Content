@@ -1,0 +1,5 @@
+<root>
+	<Panel>
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/timer.xml" />
+	</Panel>
+</root>

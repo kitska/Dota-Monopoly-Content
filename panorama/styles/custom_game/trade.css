@@ -1,0 +1,75 @@
+#TradeWindow {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    overflow: hidden;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#TradeWindow #SendButton,
+#TradeWindow #CloseButton {
+    width: 100px;
+    height: 32px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1c7cd6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#TradeWindow #SendButton {
+    float: left;
+}
+
+#TradeWindow #CloseButton {
+    float: right;
+}
+
+#TradeRequestDialog {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    overflow: hidden;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#TradeRequestDialog #AcceptButton,
+#TradeRequestDialog #DeclineButton {
+    width: 100px;
+    height: 32px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1c7cd6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#TradeRequestDialog #AcceptButton {
+    float: left;
+}
+
+#TradeRequestDialog #DeclineButton {
+    float: right;
+}

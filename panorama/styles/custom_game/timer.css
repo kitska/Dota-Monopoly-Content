@@ -1,0 +1,14 @@
+.TimerPanel {
+  horizontal-align: center;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#CustomTimerLabel {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

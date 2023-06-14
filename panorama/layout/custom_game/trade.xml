@@ -1,0 +1,17 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/trade.css" />
+    </styles>
+    <scripts>
+		<include src="s2r://panorama/scripts/custom_game/trade.js" />
+	</scripts>
+    <Panel id="TradeWindow" visible="false">
+        <!-- Здесь вы можете добавить элементы для отображения купленных секторов и золота игроков, а также поле для ввода золота -->
+        <Button id="SendButton" onactivate="SendTradeRequest();" text="Отправить" />
+        <Button id="CloseButton" onactivate="CloseTradeWindow();" text="Закрыть" />
+    </Panel>
+    <Panel id="TradeRequestDialog" visible="false">
+        <Button id="AcceptButton" onactivate="AcceptTradeRequest();" text="Принять" />
+        <Button id="DeclineButton" onactivate="DeclineTradeRequest();" text="Отклонить" />
+    </Panel>
+</root>

@@ -1,13 +1,11 @@
 <root>
-	<styles>
+    <styles>
 		<include src="s2r://panorama/styles/custom_game/timer.css" />
 	</styles>
-	<scripts>
+    <scripts>
 		<include src="s2r://panorama/scripts/custom_game/timer.js" />
 	</scripts>
-  	<Panel>
-        <Panel id="general" class="general">
-			<Label id="text" class="text" text="00:00"/>
-        </Panel>
+    <Panel class="TimerPanel">
+        <Label id="CustomTimerLabel" text = "90" />
     </Panel>
 </root>
